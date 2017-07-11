@@ -1,0 +1,1 @@
+../../../TJTestSubspec/Classes/TJModule1.h

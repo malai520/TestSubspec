@@ -1,0 +1,12 @@
+PODS:
+  - TJTestSubspec/Module1 (0.0.1)
+
+DEPENDENCIES:
+  - TJTestSubspec/Module1
+
+SPEC CHECKSUMS:
+  TJTestSubspec: 27b6e77acd72c8d34db794f602fa2ab6851ff61e
+
+PODFILE CHECKSUM: 51b06ee049501f403c99b42c607176fabad2328f
+
+COCOAPODS: 1.1.1

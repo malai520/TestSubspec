@@ -1,0 +1,44 @@
+{
+  "name": "TJTestSubspec",
+  "version": "0.0.1",
+  "license": "MIT",
+  "summary": "A delightful iOS and OS X LSAccountManager framework.",
+  "homepage": "https://github.com/malai520/TestSubspec",
+  "social_media_url": "https://github.com/malai520/TestSubspec",
+  "authors": {
+    "malai": "malai_520@163.com"
+  },
+  "source": {
+    "git": "https://github.com/malai520/TestSubspec.git",
+    "tag": "0.0.1",
+    "submodules": true
+  },
+  "requires_arc": true,
+  "public_header_files": "Classes/TJModule.h",
+  "source_files": "Classes/TJModule.h",
+  "prefix_header_contents": "#ifndef TARGET_OS_IOS\n  #define TARGET_OS_IOS TARGET_OS_IPHONE\n#endif\n\n#ifndef TARGET_OS_WATCH\n  #define TARGET_OS_WATCH 0\n#endif\n\n#ifndef TARGET_OS_TV\n  #define TARGET_OS_TV 0\n#endif",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "subspecs": [
+    {
+      "name": "Module1",
+      "source_files": "Classes/TJModule1.{h,m}",
+      "public_header_files": "Classes/TJModule1.h"
+    },
+    {
+      "name": "Module2",
+      "source_files": "Classes/TJModule2.{h,m}",
+      "public_header_files": "Classes/TJModule2.h",
+      "frameworks": "Security"
+    },
+    {
+      "name": "Module3",
+      "platforms": {
+        "ios": "8.0"
+      },
+      "source_files": "Classes/TJModule3.{h,m}",
+      "public_header_files": "Classes/TJModule3.h"
+    }
+  ]
+}

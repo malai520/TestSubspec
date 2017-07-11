@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'TJTestSubspec'
-  s.version  = '0.0.1'
+  s.version  = '0.0.2'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS and OS X LSAccountManager framework.'
   s.homepage = 'https://github.com/malai520/TestSubspec'
@@ -51,5 +51,18 @@ EOS
 
     # ss.frameworks = 'SystemConfiguration'
   end
+
+  s.subspec 'lib' do |ss|
+
+    ss.source_files = 'Classes/*'
+    # ss.public_header_files = 'Classes/TJModule.h'
+
+  end
+
+  s.subspec 'framework' do |ss|
+    ss.ios.vendored_frameworks = 'Classes/Pod/*.framework'
+
+  end
+
 
 end

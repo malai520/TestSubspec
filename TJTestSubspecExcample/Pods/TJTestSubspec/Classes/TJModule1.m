@@ -1,17 +1,13 @@
 //
-//  TJModule1.h
+//  TJModule1.m
 //  TJTestSubspec
 //
 //  Created by malai on 2017/7/11.
 //  Copyright © 2017年 malai. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "TJModule1.h"
 
-@interface TJModule1 : NSObject
-
-- (void)nihao;
-
-- (void)woshi;
+@implementation TJModule1
 
 @end

@@ -10,8 +10,4 @@
 
 @interface TJModule1 : NSObject
 
-- (void)nihao;
-
-- (void)woshi;
-
 @end

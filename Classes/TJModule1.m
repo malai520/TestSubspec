@@ -10,4 +10,14 @@
 
 @implementation TJModule1
 
+- (void)nihao {
+    
+    
+    NSLog(@"nihao");
+}
+
+- (void)woshi {
+    NSLog(@"woshi");
+}
+
 @end
