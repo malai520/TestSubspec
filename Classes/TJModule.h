@@ -6,8 +6,8 @@
 //  Copyright © 2017年 malai. All rights reserved.
 //
 
-#ifndef TJModule_h
-#define TJModule_h
+#import <Foundation/Foundation.h>
 
-
-#endif /* TJModule_h */
+#import "TJModule1.h"
+#import "TJModule2.h"
+#import "TJModule3.h"

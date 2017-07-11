@@ -1,16 +1,16 @@
 Pod::Spec.new do |s|
-  s.name     = 'AFNetworking'
-  s.version  = '3.1.0'
+  s.name     = 'TJTestSubspec'
+  s.version  = '0.0.1'
   s.license  = 'MIT'
-  s.summary  = 'A delightful iOS and OS X networking framework.'
-  s.homepage = 'https://github.com/AFNetworking/AFNetworking'
-  s.social_media_url = 'https://twitter.com/AFNetworking'
-  s.authors  = { 'Mattt Thompson' => 'm@mattt.me' }
-  s.source   = { :git => 'https://github.com/AFNetworking/AFNetworking.git', :tag => s.version, :submodules => true }
+  s.summary  = 'A delightful iOS and OS X LSAccountManager framework.'
+  s.homepage = 'https://github.com/malai520/TestSubspec'
+  s.social_media_url = 'https://github.com/malai520/TestSubspec'
+  s.authors  = { 'malai' => 'malai_520@163.com' }
+  s.source   = { :git => 'https://github.com/malai520/TestSubspec.git', :tag => s.version, :submodules => true }
   s.requires_arc = true
   
-  s.public_header_files = 'AFNetworking/AFNetworking.h'
-  s.source_files = 'AFNetworking/AFNetworking.h'
+  s.public_header_files = 'Classes/TJModule.h'
+  s.source_files = 'Classes/TJModule.h'
   
   pch_AF = <<-EOS
 #ifndef TARGET_OS_IOS
@@ -27,53 +27,29 @@ Pod::Spec.new do |s|
 EOS
   s.prefix_header_contents = pch_AF
   
-  s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0'
-  s.tvos.deployment_target = '9.0'
+  s.ios.deployment_target = '8.0'
   
-  s.subspec 'Serialization' do |ss|
-    ss.source_files = 'AFNetworking/AFURL{Request,Response}Serialization.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFURL{Request,Response}Serialization.h'
-    ss.watchos.frameworks = 'MobileCoreServices', 'CoreGraphics'
-    ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
-    ss.osx.frameworks = 'CoreServices'
+  s.subspec 'Module1' do |ss|
+    ss.source_files = 'Classes/TJModule1.{h,m}'
+    ss.public_header_files = 'Classes/TJModule1.h'
+
   end
 
-  s.subspec 'Security' do |ss|
-    ss.source_files = 'AFNetworking/AFSecurityPolicy.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFSecurityPolicy.h'
+  s.subspec 'Module2' do |ss|
+    ss.source_files = 'Classes/TJModule2.{h,m}'
+    ss.public_header_files = 'Classes/TJModule2.h'
     ss.frameworks = 'Security'
   end
 
-  s.subspec 'Reachability' do |ss|
-    ss.ios.deployment_target = '7.0'
-    ss.osx.deployment_target = '10.9'
-    ss.tvos.deployment_target = '9.0'
+  s.subspec 'Module3' do |ss|
+    ss.ios.deployment_target = '8.0'
+    # ss.osx.deployment_target = '10.9'
+    # ss.tvos.deployment_target = '9.0'
 
-    ss.source_files = 'AFNetworking/AFNetworkReachabilityManager.{h,m}'
-    ss.public_header_files = 'AFNetworking/AFNetworkReachabilityManager.h'
+    ss.source_files = 'Classes/TJModule3.{h,m}'
+    ss.public_header_files = 'Classes/TJModule3.h'
 
-    ss.frameworks = 'SystemConfiguration'
+    # ss.frameworks = 'SystemConfiguration'
   end
 
-  s.subspec 'NSURLSession' do |ss|
-    ss.dependency 'AFNetworking/Serialization'
-    ss.ios.dependency 'AFNetworking/Reachability'
-    ss.osx.dependency 'AFNetworking/Reachability'
-    ss.tvos.dependency 'AFNetworking/Reachability'
-    ss.dependency 'AFNetworking/Security'
-
-    ss.source_files = 'AFNetworking/AF{URL,HTTP}SessionManager.{h,m}'
-    ss.public_header_files = 'AFNetworking/AF{URL,HTTP}SessionManager.h'
-  end
-
-  s.subspec 'UIKit' do |ss|
-    ss.ios.deployment_target = '7.0'
-    ss.tvos.deployment_target = '9.0'
-    ss.dependency 'AFNetworking/NSURLSession'
-
-    ss.public_header_files = 'UIKit+AFNetworking/*.h'
-    ss.source_files = 'UIKit+AFNetworking'
-  end
 end
