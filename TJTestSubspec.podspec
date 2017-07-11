@@ -28,7 +28,25 @@ EOS
   s.prefix_header_contents = pch_AF
   
   s.ios.deployment_target = '8.0'
+
+  s.default_subspec = 'framework'
   
+  
+  #public
+  s.subspec 'lib' do |ss|
+
+    ss.source_files = 'Classes/*'
+    # ss.public_header_files = 'Classes/TJModule.h'
+
+  end
+
+  s.subspec 'framework' do |ss|
+    ss.ios.vendored_frameworks = 'Pod/*.framework'
+
+  end
+
+  # private
+
   s.subspec 'Module1' do |ss|
     ss.source_files = 'Classes/TJModule1.{h,m}'
     ss.public_header_files = 'Classes/TJModule1.h'
@@ -38,7 +56,7 @@ EOS
   s.subspec 'Module2' do |ss|
     ss.source_files = 'Classes/TJModule2.{h,m}'
     ss.public_header_files = 'Classes/TJModule2.h'
-    ss.frameworks = 'Security'
+
   end
 
   s.subspec 'Module3' do |ss|
@@ -50,18 +68,6 @@ EOS
     ss.public_header_files = 'Classes/TJModule3.h'
 
     # ss.frameworks = 'SystemConfiguration'
-  end
-
-  s.subspec 'lib' do |ss|
-
-    ss.source_files = 'Classes/*'
-    # ss.public_header_files = 'Classes/TJModule.h'
-
-  end
-
-  s.subspec 'framework' do |ss|
-    ss.ios.vendored_frameworks = 'Classes/Pod/*.framework'
-
   end
 
 
