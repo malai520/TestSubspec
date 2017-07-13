@@ -1,12 +1,12 @@
 PODS:
-  - TJTestSubspec/lib (0.0.2)
+  - TJTestSubspec/source (0.0.2)
 
 DEPENDENCIES:
-  - TJTestSubspec/lib (~> 0.0.2)
+  - TJTestSubspec/source (~> 0.0.2)
 
 SPEC CHECKSUMS:
-  TJTestSubspec: bfd3c286b3857820bc61ffc176088d3e8901ff21
+  TJTestSubspec: 3e82341c24ee42d3932deed30746855426e32311
 
-PODFILE CHECKSUM: d61a740610b456116d72cbcb52a253847e400fed
+PODFILE CHECKSUM: f6fafc19ab283159913bc7478765417f660e8010
 
 COCOAPODS: 1.1.1

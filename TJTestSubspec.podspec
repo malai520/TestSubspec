@@ -35,7 +35,28 @@ EOS
   #public
   s.subspec 'source' do |ss|
 
-    ss.source_files = 'Classes/*'
+    ss.subspec 'Module1' do |sss|
+      sss.source_files = 'Classes/TJModule1.{h,m}'
+      sss.public_header_files = 'Classes/TJModule1.h'
+
+    end
+
+    s.subspec 'Module2' do |sss|
+      sss.source_files = 'Classes/TJModule2.{h,m}'
+      sss.public_header_files = 'Classes/TJModule2.h'
+
+    end
+
+    s.subspec 'Module3' do |sss|
+      sss.ios.deployment_target = '8.0'
+      # ss.osx.deployment_target = '10.9'
+      # ss.tvos.deployment_target = '9.0'
+
+      sss.source_files = 'Classes/TJModule3.{h,m}'
+      sss.public_header_files = 'Classes/TJModule3.h'
+
+      # ss.frameworks = 'SystemConfiguration'
+    end
 
   end
 
@@ -46,28 +67,6 @@ EOS
 
   # private
 
-  s.subspec 'Module1' do |ss|
-    ss.source_files = 'Classes/TJModule1.{h,m}'
-    ss.public_header_files = 'Classes/TJModule1.h'
-
-  end
-
-  s.subspec 'Module2' do |ss|
-    ss.source_files = 'Classes/TJModule2.{h,m}'
-    ss.public_header_files = 'Classes/TJModule2.h'
-
-  end
-
-  s.subspec 'Module3' do |ss|
-    ss.ios.deployment_target = '8.0'
-    # ss.osx.deployment_target = '10.9'
-    # ss.tvos.deployment_target = '9.0'
-
-    ss.source_files = 'Classes/TJModule3.{h,m}'
-    ss.public_header_files = 'Classes/TJModule3.h'
-
-    # ss.frameworks = 'SystemConfiguration'
-  end
 
 
 end

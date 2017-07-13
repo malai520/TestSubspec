@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021963CE5B64F15D22008B23 /* Pods_TJTestSubspecExcample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC2833E5A097862D038A6C /* Pods_TJTestSubspecExcample.framework */; };
 		A0B689191F14B55600955670 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B689181F14B55600955670 /* AppDelegate.m */; };
 		A0B6891C1F14B55600955670 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B6891B1F14B55600955670 /* ViewController.m */; };
 		A0B6891F1F14B55600955670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B6891D1F14B55600955670 /* Main.storyboard */; };
 		A0B689211F14B55600955670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B689201F14B55600955670 /* Assets.xcassets */; };
 		A0B689241F14B55600955670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B689221F14B55600955670 /* LaunchScreen.storyboard */; };
 		A0B689271F14B55600955670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B689261F14B55600955670 /* main.m */; };
-		B3D606C444FF885A4946CF67 /* Pods_TJTestSubspecExcample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0EB7B03AD87D2FAA373ACEE8 /* Pods-TJTestSubspecExcample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJTestSubspecExcample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TJTestSubspecExcample/Pods-TJTestSubspecExcample.release.xcconfig"; sourceTree = "<group>"; };
+		92BC2833E5A097862D038A6C /* Pods_TJTestSubspecExcample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJTestSubspecExcample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B689141F14B55600955670 /* TJTestSubspecExcample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJTestSubspecExcample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0B689171F14B55600955670 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A0B689181F14B55600955670 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		A0B689251F14B55600955670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0B689261F14B55600955670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AD0EA2133157694FAFE0CA03 /* Pods-TJTestSubspecExcample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJTestSubspecExcample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TJTestSubspecExcample/Pods-TJTestSubspecExcample.debug.xcconfig"; sourceTree = "<group>"; };
-		C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJTestSubspecExcample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3D606C444FF885A4946CF67 /* Pods_TJTestSubspecExcample.framework in Frameworks */,
+				021963CE5B64F15D22008B23 /* Pods_TJTestSubspecExcample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		0EE69B54E3993EB40B28A7DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */,
+				92BC2833E5A097862D038A6C /* Pods_TJTestSubspecExcample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -349,6 +349,7 @@
 			baseConfigurationReference = AD0EA2133157694FAFE0CA03 /* Pods-TJTestSubspecExcample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestSubspecExcample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -363,6 +364,7 @@
 			baseConfigurationReference = 0EB7B03AD87D2FAA373ACEE8 /* Pods-TJTestSubspecExcample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8H3E5AB424;
 				INFOPLIST_FILE = TJTestSubspecExcample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
