@@ -23,6 +23,9 @@
     
     TJModule1 *modulel1 = [[TJModule1 alloc] init];
     
+    [modulel1 nihao];
+    [modulel1 woshi];
+    
     _module1 = modulel1;
 }
 

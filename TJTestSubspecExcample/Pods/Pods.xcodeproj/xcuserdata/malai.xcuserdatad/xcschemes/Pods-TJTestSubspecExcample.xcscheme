@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A9DBF8AB371D2965F8618596BDA2C6F9"
-               BuildableName = "libPods-TJTestSubspecExcample.a"
+               BlueprintIdentifier = "24E267111DD52068580BF873A02B76D5"
+               BuildableName = "Pods_TJTestSubspecExcample.framework"
                BlueprintName = "Pods-TJTestSubspecExcample"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -45,8 +45,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A9DBF8AB371D2965F8618596BDA2C6F9"
-            BuildableName = "libPods-TJTestSubspecExcample.a"
+            BlueprintIdentifier = "24E267111DD52068580BF873A02B76D5"
+            BuildableName = "Pods_TJTestSubspecExcample.framework"
             BlueprintName = "Pods-TJTestSubspecExcample"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>

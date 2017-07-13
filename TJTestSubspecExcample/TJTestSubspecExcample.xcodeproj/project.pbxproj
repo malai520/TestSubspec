@@ -13,7 +13,7 @@
 		A0B689211F14B55600955670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0B689201F14B55600955670 /* Assets.xcassets */; };
 		A0B689241F14B55600955670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0B689221F14B55600955670 /* LaunchScreen.storyboard */; };
 		A0B689271F14B55600955670 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B689261F14B55600955670 /* main.m */; };
-		D80DD1190E19C3BB75BD1595 /* libPods-TJTestSubspecExcample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9E74022F33BB0C7D24559F9 /* libPods-TJTestSubspecExcample.a */; };
+		B3D606C444FF885A4946CF67 /* Pods_TJTestSubspecExcample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		A0B689231F14B55600955670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0B689251F14B55600955670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0B689261F14B55600955670 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A9E74022F33BB0C7D24559F9 /* libPods-TJTestSubspecExcample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TJTestSubspecExcample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0EA2133157694FAFE0CA03 /* Pods-TJTestSubspecExcample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TJTestSubspecExcample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TJTestSubspecExcample/Pods-TJTestSubspecExcample.debug.xcconfig"; sourceTree = "<group>"; };
+		C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TJTestSubspecExcample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80DD1190E19C3BB75BD1595 /* libPods-TJTestSubspecExcample.a in Frameworks */,
+				B3D606C444FF885A4946CF67 /* Pods_TJTestSubspecExcample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,7 +47,7 @@
 		0EE69B54E3993EB40B28A7DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A9E74022F33BB0C7D24559F9 /* libPods-TJTestSubspecExcample.a */,
+				C1BCAB77A18E3BD2136484CC /* Pods_TJTestSubspecExcample.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

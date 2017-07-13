@@ -33,15 +33,14 @@ EOS
   
   
   #public
-  s.subspec 'lib' do |ss|
+  s.subspec 'source' do |ss|
 
     ss.source_files = 'Classes/*'
-    # ss.public_header_files = 'Classes/TJModule.h'
 
   end
 
   s.subspec 'framework' do |ss|
-    ss.ios.vendored_frameworks = 'Pod/*.framework'
+    ss.ios.vendored_frameworks = 'ios/TJTestSubspec.embeddedframework/TJTestSubspec.framework'
 
   end
 

@@ -1,0 +1,6 @@
+framework module TJTestSubspec {
+  umbrella header "TJTestSubspec-umbrella.h"
+
+  export *
+  module * { export * }
+}
