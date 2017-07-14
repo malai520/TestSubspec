@@ -1,12 +1,16 @@
 PODS:
-  - TJTestSubspec/source (0.0.2)
+  - TJTestSubspec/Module1 (0.0.3)
+  - TJTestSubspec/Module2 (0.0.3)
+  - TJTestSubspec/source (0.0.3):
+    - TJTestSubspec/Module1
+    - TJTestSubspec/Module2
 
 DEPENDENCIES:
-  - TJTestSubspec/source (~> 0.0.2)
+  - TJTestSubspec/source (~> 0.0.3)
 
 SPEC CHECKSUMS:
-  TJTestSubspec: 3e82341c24ee42d3932deed30746855426e32311
+  TJTestSubspec: 138109fe83e1f7f474608981d27a9dc4cb259a73
 
-PODFILE CHECKSUM: f6fafc19ab283159913bc7478765417f660e8010
+PODFILE CHECKSUM: a9737d3f1bff22ecaf1af9945d8f787a8bdead8c
 
 COCOAPODS: 1.1.1

@@ -7,19 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B61F5A58FE84A231BF0F36A7E98D214 /* TJModule3.h in Headers */ = {isa = PBXBuildFile; fileRef = 49E0CA1D4F9E658D9D5CB2D9599FF72B /* TJModule3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0C9ED46FFD4F7CBE44DF237A78727117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		1657EB1A7ECB4FEB7222355D5F3CEF58 /* Pods-TJTestSubspecExcample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7368FB73E4593BAB435B5C0C230C2C47 /* Pods-TJTestSubspecExcample-dummy.m */; };
-		480969CF84E9FFA15360959164A0ECFA /* TJTestSubspec-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B274840B636178E1895D4EC27BE25D /* TJTestSubspec-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EC8CB1725017EC46B1EB4F3042BFC08 /* TJModule3.m in Sources */ = {isa = PBXBuildFile; fileRef = F68948D4B8F549B4E9914F96D2D9B5B7 /* TJModule3.m */; };
-		563B816DC61485BF38C74178C40A8CCD /* TJModule1.m in Sources */ = {isa = PBXBuildFile; fileRef = B15B035A91497A067BCD0E2875C71E12 /* TJModule1.m */; };
-		71FB0FDFEF8FADC1E0E9CA3DCDA5310D /* TJTestSubspec-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4979AA29D4D8F149120259BEB03C9A /* TJTestSubspec-dummy.m */; };
-		72D692408262DF24ABF0C57697768A61 /* TJModule1.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C26AF471AB7E74B86E81A94AF88A718 /* TJModule1.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7BB8B75AF74C6E2F5E7ED3557A62A5B4 /* TJModule2.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC5A6E25A17E5DC14D75116A0C4CD24 /* TJModule2.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8A216E3D055E7536DDF541B050E2CAF /* TJModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EF3D331043B480A51B94B11B753530 /* TJModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA2672131AB7A8A9C1282874B212BA03 /* TJModule2.m in Sources */ = {isa = PBXBuildFile; fileRef = 79EC50F95D3031E8316DBF5B8CE6EFD2 /* TJModule2.m */; };
+		4B11EEBB6746B9E0FFB6C7F574D6EADA /* TJModule1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D79A3D21AFDD884BDB4A11D45560BAE /* TJModule1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		514BF3D7C7C84E7C89642A2AD08B4817 /* TJModule2.h in Headers */ = {isa = PBXBuildFile; fileRef = A82933F496C0029466D2D0D211A2897C /* TJModule2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		673D1A7E1C9B301770D0EE859B9D1E15 /* TJModule1.m in Sources */ = {isa = PBXBuildFile; fileRef = 1485493D567004FE4A4E93493027A6BA /* TJModule1.m */; };
+		93559FB392EE39468186F5C3E60D0728 /* TJModule2.m in Sources */ = {isa = PBXBuildFile; fileRef = 2272ED676D417AD7839557649F8629C2 /* TJModule2.m */; };
 		BE4490FD948CB34CACD8159D2E9D5584 /* Pods-TJTestSubspecExcample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CBD905CD863E44228D73078281317D4 /* Pods-TJTestSubspecExcample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0F5DE73A0FBB5972C02C083B4E0C6C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EBF833DCC8DC9F19B66786725514F201 /* TJTestSubspec-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A44B1FB69C2DBED3FCBEA37783AAE13 /* TJTestSubspec-dummy.m */; };
+		FDC29C471C8000E536778A7FE6AC2B7D /* TJTestSubspec-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A641D0F14704EE0CE2544C46C751B4B2 /* TJTestSubspec-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,33 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02E1EEF27EE3B1342CA3B5DF599B3777 /* TJTestSubspec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJTestSubspec.xcconfig; sourceTree = "<group>"; };
 		07175C44D03FC048855616CADE05AFC8 /* Pods-TJTestSubspecExcample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TJTestSubspecExcample.modulemap"; sourceTree = "<group>"; };
+		1485493D567004FE4A4E93493027A6BA /* TJModule1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJModule1.m; path = Classes/TJModule1.m; sourceTree = "<group>"; };
 		1A2260A0C95909E8634186AE35D99B59 /* TJTestSubspec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TJTestSubspec.framework; path = TJTestSubspec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D79A3D21AFDD884BDB4A11D45560BAE /* TJModule1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule1.h; path = Classes/TJModule1.h; sourceTree = "<group>"; };
+		2272ED676D417AD7839557649F8629C2 /* TJModule2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJModule2.m; path = Classes/TJModule2.m; sourceTree = "<group>"; };
 		244BB7DE02F7AEEEA3389F8B553979B3 /* Pods_TJTestSubspecExcample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TJTestSubspecExcample.framework; path = "Pods-TJTestSubspecExcample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3531B22EE5461F1612887FAB48004B0B /* Pods-TJTestSubspecExcample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJTestSubspecExcample.debug.xcconfig"; sourceTree = "<group>"; };
-		3AD17B1F59FB9D6FE72ACA892477CEEB /* TJTestSubspec.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TJTestSubspec.modulemap; sourceTree = "<group>"; };
-		49E0CA1D4F9E658D9D5CB2D9599FF72B /* TJModule3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule3.h; path = Classes/TJModule3.h; sourceTree = "<group>"; };
-		4D4979AA29D4D8F149120259BEB03C9A /* TJTestSubspec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJTestSubspec-dummy.m"; sourceTree = "<group>"; };
+		3A44B1FB69C2DBED3FCBEA37783AAE13 /* TJTestSubspec-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TJTestSubspec-dummy.m"; sourceTree = "<group>"; };
+		3AC5D81151D817452DE4F5AC5456F302 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC10E810E76AA4FCC33A2856AA3C3C3 /* TJTestSubspec.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TJTestSubspec.modulemap; sourceTree = "<group>"; };
 		655F8B03D15A0A5BFC7404B550D192E8 /* Pods-TJTestSubspecExcample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJTestSubspecExcample-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7368FB73E4593BAB435B5C0C230C2C47 /* Pods-TJTestSubspecExcample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TJTestSubspecExcample-dummy.m"; sourceTree = "<group>"; };
-		79EC50F95D3031E8316DBF5B8CE6EFD2 /* TJModule2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJModule2.m; path = Classes/TJModule2.m; sourceTree = "<group>"; };
 		7CBD905CD863E44228D73078281317D4 /* Pods-TJTestSubspecExcample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TJTestSubspecExcample-umbrella.h"; sourceTree = "<group>"; };
 		86470E8AB2001A700FFCB41A271B3173 /* Pods-TJTestSubspecExcample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TJTestSubspecExcample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8C26AF471AB7E74B86E81A94AF88A718 /* TJModule1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule1.h; path = Classes/TJModule1.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98EF3D331043B480A51B94B11B753530 /* TJModule.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule.h; path = Classes/TJModule.h; sourceTree = "<group>"; };
-		9B3FC2A9BADB20CF943ED708B68C5BED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A150977B6DE8577A04C11B83C06F3CE2 /* Pods-TJTestSubspecExcample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TJTestSubspecExcample-resources.sh"; sourceTree = "<group>"; };
 		A26C0BE1D6242575EB2D7A60BBE9200A /* Pods-TJTestSubspecExcample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TJTestSubspecExcample-acknowledgements.plist"; sourceTree = "<group>"; };
-		B15B035A91497A067BCD0E2875C71E12 /* TJModule1.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJModule1.m; path = Classes/TJModule1.m; sourceTree = "<group>"; };
-		B50FEC33AF9E3F74F4AF27596A143727 /* TJTestSubspec-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJTestSubspec-prefix.pch"; sourceTree = "<group>"; };
-		BCC5A6E25A17E5DC14D75116A0C4CD24 /* TJModule2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule2.h; path = Classes/TJModule2.h; sourceTree = "<group>"; };
-		C8B274840B636178E1895D4EC27BE25D /* TJTestSubspec-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJTestSubspec-umbrella.h"; sourceTree = "<group>"; };
+		A641D0F14704EE0CE2544C46C751B4B2 /* TJTestSubspec-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJTestSubspec-umbrella.h"; sourceTree = "<group>"; };
+		A82933F496C0029466D2D0D211A2897C /* TJModule2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TJModule2.h; path = Classes/TJModule2.h; sourceTree = "<group>"; };
+		AA8AB056D05A0756FD3F831CD1D64460 /* TJTestSubspec.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TJTestSubspec.xcconfig; sourceTree = "<group>"; };
 		DF276ED84C138AD12EF73F1465EACD22 /* Pods-TJTestSubspecExcample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TJTestSubspecExcample.release.xcconfig"; sourceTree = "<group>"; };
+		E9861CDE9ACE1B3236E8A9EF9A8B595B /* TJTestSubspec-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TJTestSubspec-prefix.pch"; sourceTree = "<group>"; };
 		EA07AED9D4FE93447C2448CB30C2FCBD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F68948D4B8F549B4E9914F96D2D9B5B7 /* TJModule3.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TJModule3.m; path = Classes/TJModule3.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,28 +76,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		335ECF22276F2DEBA57E99EC257D47F0 /* TJTestSubspec */ = {
+		140BA2B188071299F4A34B37CAF5316F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8D260613AFFE12EEA55D9842B0DAC588 /* source */,
-				5DBF3754867940BF2C290216F5BC2011 /* Support Files */,
+				6DCDC5BBDDF8BA253434AD2FF433DB0A /* TJTestSubspec */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FF0B0B2D3213282D8B15572D2D2C076 /* Module2 */ = {
+			isa = PBXGroup;
+			children = (
+				A82933F496C0029466D2D0D211A2897C /* TJModule2.h */,
+				2272ED676D417AD7839557649F8629C2 /* TJModule2.m */,
+			);
+			name = Module2;
+			sourceTree = "<group>";
+		};
+		6DCDC5BBDDF8BA253434AD2FF433DB0A /* TJTestSubspec */ = {
+			isa = PBXGroup;
+			children = (
+				807C9D20357CEC9157964330B1324609 /* Module1 */,
+				5FF0B0B2D3213282D8B15572D2D2C076 /* Module2 */,
+				E655D0AEF32ED75AA56C0A85BCA16CCC /* Support Files */,
 			);
 			name = TJTestSubspec;
 			path = TJTestSubspec;
-			sourceTree = "<group>";
-		};
-		5DBF3754867940BF2C290216F5BC2011 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9B3FC2A9BADB20CF943ED708B68C5BED /* Info.plist */,
-				3AD17B1F59FB9D6FE72ACA892477CEEB /* TJTestSubspec.modulemap */,
-				02E1EEF27EE3B1342CA3B5DF599B3777 /* TJTestSubspec.xcconfig */,
-				4D4979AA29D4D8F149120259BEB03C9A /* TJTestSubspec-dummy.m */,
-				B50FEC33AF9E3F74F4AF27596A143727 /* TJTestSubspec-prefix.pch */,
-				C8B274840B636178E1895D4EC27BE25D /* TJTestSubspec-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TJTestSubspec";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -111,24 +109,19 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				9C352A9D7F90922BE3299CCC0E98F352 /* Pods */,
+				140BA2B188071299F4A34B37CAF5316F /* Pods */,
 				B5C4484C550D7C29B1CFEF27057CC945 /* Products */,
 				92DA566937F3526608D562F45176A466 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8D260613AFFE12EEA55D9842B0DAC588 /* source */ = {
+		807C9D20357CEC9157964330B1324609 /* Module1 */ = {
 			isa = PBXGroup;
 			children = (
-				98EF3D331043B480A51B94B11B753530 /* TJModule.h */,
-				8C26AF471AB7E74B86E81A94AF88A718 /* TJModule1.h */,
-				B15B035A91497A067BCD0E2875C71E12 /* TJModule1.m */,
-				BCC5A6E25A17E5DC14D75116A0C4CD24 /* TJModule2.h */,
-				79EC50F95D3031E8316DBF5B8CE6EFD2 /* TJModule2.m */,
-				49E0CA1D4F9E658D9D5CB2D9599FF72B /* TJModule3.h */,
-				F68948D4B8F549B4E9914F96D2D9B5B7 /* TJModule3.m */,
+				1D79A3D21AFDD884BDB4A11D45560BAE /* TJModule1.h */,
+				1485493D567004FE4A4E93493027A6BA /* TJModule1.m */,
 			);
-			name = source;
+			name = Module1;
 			sourceTree = "<group>";
 		};
 		92DA566937F3526608D562F45176A466 /* Targets Support Files */ = {
@@ -137,14 +130,6 @@
 				B0E9A1DCAF8D868DE9C9676979C63BFA /* Pods-TJTestSubspecExcample */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9C352A9D7F90922BE3299CCC0E98F352 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				335ECF22276F2DEBA57E99EC257D47F0 /* TJTestSubspec */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		B0E9A1DCAF8D868DE9C9676979C63BFA /* Pods-TJTestSubspecExcample */ = {
@@ -190,6 +175,20 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		E655D0AEF32ED75AA56C0A85BCA16CCC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AC5D81151D817452DE4F5AC5456F302 /* Info.plist */,
+				5DC10E810E76AA4FCC33A2856AA3C3C3 /* TJTestSubspec.modulemap */,
+				AA8AB056D05A0756FD3F831CD1D64460 /* TJTestSubspec.xcconfig */,
+				3A44B1FB69C2DBED3FCBEA37783AAE13 /* TJTestSubspec-dummy.m */,
+				E9861CDE9ACE1B3236E8A9EF9A8B595B /* TJTestSubspec-prefix.pch */,
+				A641D0F14704EE0CE2544C46C751B4B2 /* TJTestSubspec-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TJTestSubspec";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -201,15 +200,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8855C09B026D7B8A286058964CB48334 /* Headers */ = {
+		E0010C705B9BF688A56EB2B666C4883E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A216E3D055E7536DDF541B050E2CAF /* TJModule.h in Headers */,
-				72D692408262DF24ABF0C57697768A61 /* TJModule1.h in Headers */,
-				7BB8B75AF74C6E2F5E7ED3557A62A5B4 /* TJModule2.h in Headers */,
-				0B61F5A58FE84A231BF0F36A7E98D214 /* TJModule3.h in Headers */,
-				480969CF84E9FFA15360959164A0ECFA /* TJTestSubspec-umbrella.h in Headers */,
+				4B11EEBB6746B9E0FFB6C7F574D6EADA /* TJModule1.h in Headers */,
+				514BF3D7C7C84E7C89642A2AD08B4817 /* TJModule2.h in Headers */,
+				FDC29C471C8000E536778A7FE6AC2B7D /* TJTestSubspec-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,9 +235,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 548B55F28232D400CBA01A9159BF3642 /* Build configuration list for PBXNativeTarget "TJTestSubspec" */;
 			buildPhases = (
-				D4A71A6C9C67BA21052BF925D0B3D1B3 /* Sources */,
+				76D92AF75279ADFEA06828826EB5C0D7 /* Sources */,
 				346336FFA49E15139A721B4C6468CE1D /* Frameworks */,
-				8855C09B026D7B8A286058964CB48334 /* Headers */,
+				E0010C705B9BF688A56EB2B666C4883E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -279,14 +276,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D4A71A6C9C67BA21052BF925D0B3D1B3 /* Sources */ = {
+		76D92AF75279ADFEA06828826EB5C0D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				563B816DC61485BF38C74178C40A8CCD /* TJModule1.m in Sources */,
-				BA2672131AB7A8A9C1282874B212BA03 /* TJModule2.m in Sources */,
-				4EC8CB1725017EC46B1EB4F3042BFC08 /* TJModule3.m in Sources */,
-				71FB0FDFEF8FADC1E0E9CA3DCDA5310D /* TJTestSubspec-dummy.m in Sources */,
+				673D1A7E1C9B301770D0EE859B9D1E15 /* TJModule1.m in Sources */,
+				93559FB392EE39468186F5C3E60D0728 /* TJModule2.m in Sources */,
+				EBF833DCC8DC9F19B66786725514F201 /* TJTestSubspec-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +352,7 @@
 		};
 		824BAA78FCC1A4F6C3A22E3BE3819509 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02E1EEF27EE3B1342CA3B5DF599B3777 /* TJTestSubspec.xcconfig */;
+			baseConfigurationReference = AA8AB056D05A0756FD3F831CD1D64460 /* TJTestSubspec.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -424,7 +420,7 @@
 		};
 		BF2C810A16178FF24BDBA7ECF68788F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02E1EEF27EE3B1342CA3B5DF599B3777 /* TJTestSubspec.xcconfig */;
+			baseConfigurationReference = AA8AB056D05A0756FD3F831CD1D64460 /* TJTestSubspec.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -37,7 +37,7 @@ EOS
 
     ss.dependency 'TJTestSubspec/Module1'
     ss.dependency 'TJTestSubspec/Module2'
-    ss.dependency 'TJTestSubspec/Module2'
+    ss.dependency 'TJTestSubspec/Module3'
   end
 
   s.subspec 'framework' do |ss|

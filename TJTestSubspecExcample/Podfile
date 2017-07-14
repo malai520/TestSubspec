@@ -8,6 +8,6 @@ target 'TJTestSubspecExcample' do
   # Pods for TJTestSubspecExcample
 
 
-    pod 'TJTestSubspec/source' , '~> 0.0.2'
+    pod 'TJTestSubspec/source' , '~> 0.0.3'
 
 end
