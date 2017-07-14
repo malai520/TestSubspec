@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'TJTestSubspec'
-  s.version  = '0.0.2'
+  s.version  = '0.0.3'
   s.license  = 'MIT'
   s.summary  = 'A delightful iOS and OS X LSAccountManager framework.'
   s.homepage = 'https://github.com/malai520/TestSubspec'
@@ -35,29 +35,9 @@ EOS
   #public
   s.subspec 'source' do |ss|
 
-    ss.subspec 'Module1' do |sss|
-      sss.source_files = 'Classes/TJModule1.{h,m}'
-      sss.public_header_files = 'Classes/TJModule1.h'
-
-    end
-
-    s.subspec 'Module2' do |sss|
-      sss.source_files = 'Classes/TJModule2.{h,m}'
-      sss.public_header_files = 'Classes/TJModule2.h'
-
-    end
-
-    s.subspec 'Module3' do |sss|
-      sss.ios.deployment_target = '8.0'
-      # ss.osx.deployment_target = '10.9'
-      # ss.tvos.deployment_target = '9.0'
-
-      sss.source_files = 'Classes/TJModule3.{h,m}'
-      sss.public_header_files = 'Classes/TJModule3.h'
-
-      # ss.frameworks = 'SystemConfiguration'
-    end
-
+    ss.dependency 'TJTestSubspec/Module1'
+    ss.dependency 'TJTestSubspec/Module2'
+    ss.dependency 'TJTestSubspec/Module2'
   end
 
   s.subspec 'framework' do |ss|
@@ -66,6 +46,22 @@ EOS
   end
 
   # private
+  s.subspec 'Module1' do |sss|
+      sss.source_files = 'Classes/TJModule1.{h,m}'
+      sss.public_header_files = 'Classes/TJModule1.h'
+
+    end
+
+  s.subspec 'Module2' do |sss|
+    sss.source_files = 'Classes/TJModule2.{h,m}'
+    sss.public_header_files = 'Classes/TJModule2.h'
+    end
+
+  s.subspec 'Module3' do |sss|
+    sss.source_files = 'Classes/TJModule3.{h,m}'
+    sss.public_header_files = 'Classes/TJModule3.h'
+
+    end 
 
 
 
